@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy :3 happy Valentines day baby <3";
+  titleElement.innerHTML = "Yayyy :3 happy Valentines day baby <3 check your roblox account hehe";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
