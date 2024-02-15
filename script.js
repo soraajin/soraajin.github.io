@@ -30,6 +30,16 @@ function handleYesClick() {
   titleElement.innerHTML = "Yayyy :3 happy Valentines day baby <3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
+    <script>
+    function replayMusic() {
+        var music = new Audio('First_date.mp3');
+        music.play();
+        music.volume = 0.1;
+        music.loop = 1;
+        
+    }
+        replayMusic();
+    </script>
 }
 
 function resizeYesButton() {
